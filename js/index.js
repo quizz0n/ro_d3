@@ -21,7 +21,7 @@ var projection = d3.geoMercator()
 
 var geoPathGenerator = d3.geoPath().projection(projection);
 
-d3.json("data/counties.geojson")
+d3.json("data/rocounties.json")
   .then(function(loadedTopoJson) {
     var geoJson = topojson.mesh(
       loadedTopoJson,

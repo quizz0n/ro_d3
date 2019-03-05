@@ -1,0 +1,17 @@
+body {
+  margin: 5px;
+  text-align: center;
+}
+
+svg {
+  width: 700px;
+  outline: 1px solid black;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+path.feature {
+  stroke-width: 1px;
+  stroke: black;
+  fill: none;
+}
